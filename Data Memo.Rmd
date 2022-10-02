@@ -1,0 +1,19 @@
+---
+title: "Data Memo"
+output: html_document
+date: "2022-10-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I chose a voters dataset linked on GitHub from FiveThirtyEight. This survey was done to figure out what kinds of people voted and who didn’t. Over 5000 respondents took the survey that asked many scenario questions. Along with over 60 survey questions, respondents’ race, gender, education level, income, and how often they vote was also recorded. I want to focus on the more demographic questions, such as  race, gender, education level, and income. I want to see if from these alone we can predict if a person would choose to vote or not. 
+
+The last question asked how often they vote, and the answers were categorized as sporadic, rare/never, etc. I feel that this could sway between respondent to respondent by what they define as such. I would like to also dig into which elections those who rarely vote prioritize when they do vote. 
+
+I have learned that many times that education level and race was enough to predict one’s political party, however, I also know from experience that despite those who stand by a party doesn’t mean they vote. I want to predict who will vote or not. I think it would be more beneficial to go with a classification approach seeing as I'm categorizing people into boxes with a predictive approach. While I understand that many more factors go into voting, I do believe that as more human rights become politicized, these basic demographics will be all that it comes down to. 
+
+I want to have my dataset loaded and ready to be analyzed before midterm season starts, hopefully in the next two weeks. I believe that playing with R and trying to figure out the smaller technicalities will take up the most time, so I want to deal with those as soon as possible. After that, as we learn more about machine learning and modeling in class, I want to use that on my data to see what I can do with it and what I can learn from it. 
+
+I am worried about boiling down my predictors too much. However, seeing as how human rights are becoming more and more politicized in today’s day and age, I believe understanding how each demographic votes will be the biggest influencers. 
